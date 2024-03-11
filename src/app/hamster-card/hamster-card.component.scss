@@ -1,0 +1,43 @@
+.card {
+  min-height: 550px;
+  background-color: white;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgb(54, 54, 54);
+    font-size: 20px;
+  }
+
+  button {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    height: 32px;
+    background-color: rgb(255, 252, 252);
+    border: unset;
+    border-top: 1px solid rgb(34, 34, 34);
+    cursor: pointer;
+
+    &:first-child {
+      left: 0;
+    }
+
+    &:last-child {
+      right: 0;
+      border-left: 1px solid rgb(34, 34, 34);
+    }
+    &:hover {
+      background-color: rgb(238, 238, 238);
+    }
+  }
+}
