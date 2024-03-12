@@ -1,9 +1,5 @@
-.card {
+.standart-card {
   min-height: 550px;
-  background-color: white;
-  width: 400px;
-  border: 2px solid black;
-  border-radius: 4px;
   overflow: hidden;
   position: relative;
 
@@ -37,7 +33,7 @@
       border-left: 1px solid rgb(34, 34, 34);
     }
     &:hover {
-      background-color: rgb(238, 238, 238);
+      background-color: rgb(196, 196, 196);
     }
   }
 }

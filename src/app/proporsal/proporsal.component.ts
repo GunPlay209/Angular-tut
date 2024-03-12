@@ -1,26 +1,27 @@
 import { Component, OnInit } from '@angular/core';
 import { ProfileRowComponent } from '../profile-row/profile-row.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-proporsal',
   standalone: true,
-  imports: [ProfileRowComponent],
+  imports: [ProfileRowComponent, CommonModule],
   templateUrl: './proporsal.component.html',
   styleUrl: './proporsal.component.scss',
 })
 export class ProporsalComponent implements OnInit {
   names = ['Marius', 'Franziska', 'Josephine', 'Patrick'];
   texts = [
-    '2 Jahre alt',
+    'Vielfresser',
     'Gräbt gerne Löcher',
     'Spielt gerne',
     'Hamsterrad-Freak',
   ];
   images = [
-    'asset/img/hamster/Hamster4.jpg',
-    'asset/img/hamster/Hamster5.jpg',
-    'asset/img/hamster/Hamster6.jpg',
-    'asset/img/hamster/Hamster3.jpg',
+    'assets/img/hamster/Hamster4.jpg',
+    'assets/img/hamster/Hamster5.jpg',
+    'assets/img/hamster/Hamster6.jpg',
+    'assets/img/hamster/Hamster3.jpg',
   ];
   constructor() {}
 

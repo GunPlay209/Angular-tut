@@ -9,7 +9,21 @@
     object-position: right;
   }
   .description {
-    color: rgb(38, 38, 38);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+  }
+
+  .name {
+    width: 120px;
+  }
+
+  a {
     font-size: 12px;
+    color: blue;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

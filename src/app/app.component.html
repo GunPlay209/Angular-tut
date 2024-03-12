@@ -2,10 +2,13 @@
 
 <div class="flexrow">
   <div class="container">
+   <app-friendbox></app-friendbox>
+
     <app-hamster-card
       *ngFor="let i of [0, 1, 2, 3]"
       [img]="postImages[i]"
       [text]="postTexts[i]"
     ></app-hamster-card>
   </div>
+  <app-proporsal></app-proporsal>
 </div>

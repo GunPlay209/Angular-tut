@@ -1,9 +1,10 @@
 <div class="profile-row margin-bottom-16">
   <img src="{{ img }}" />
-  <div>
+  <div class="name">
     <b>{{ name }}</b
     ><br />
     <span class="description">{{ description }}</span>
-    <span class="description"> 3 Jahre alt </span>
   </div>
+
+  <a *ngIf="canFollow" (click)="fs.addFriend(name, img); canFollow=false;">Folgen</a>
 </div>

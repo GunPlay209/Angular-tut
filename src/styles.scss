@@ -9,3 +9,18 @@ body {
 .margin-bottom-16 {
   margin-bottom: 16px;
 }
+
+.padding-16 {
+  padding: 16px;
+}
+
+.standart-card {
+  background-color: white;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
